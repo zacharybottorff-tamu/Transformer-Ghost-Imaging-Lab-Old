@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Array of images
-a = np.load('SMILE_PINK_SR5p_10.npy') #32,32
+a = np.load('./zresult/SMILE_Ray_p15_0.npy') #32,32
 
 # repeat for 10 images
 for i in range(10):
