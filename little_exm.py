@@ -211,13 +211,13 @@ def src_dealwith(img_ori, pattern,V2):
 # !!!!!!!!!!!ray15 nuber 改900
 #!!!!!!!!!!!!!!!!检查是不是V2
 # readImageFile = "/scratch/user/taopeng/REAL_TRUE_white/A_WHR_MAKE_RESULT/image/Number_Image.npy"
-readImageFile = "/scratch/user/taopeng/REAL_TRUE_white/A_WHR_MAKE_RESULT/image/Smile_image.npy"
+readImageFile = "./image/Smile_image.npy"
 
 # readPatternFile = "/scratch/user/taopeng/REAL_TRUE_white/data/pattern/Pink_SR2p.npy"
 # readPatternFile = "/scratch/user/taopeng/REAL_TRUE_white/data/pattern/Pink_SR3p.npy"
 # readPatternFile = "/scratch/user/taopeng/REAL_TRUE_white/data/pattern/Pink_SR5p.npy"
 # readPatternFile = "/scratch/user/taopeng/REAL_TRUE_white/data/pattern/Ray_SR5p.npy"
-readPatternFile = "/scratch/user/taopeng/REAL_TRUE_white/data/pattern/Ray_SR15p.npy"
+readPatternFile = "./pattern/ray_p15.npy"
 
 # readModelFile = "/scratch/user/taopeng/REAL_TRUE_white/data/Noise_Pink_SR2p_0/Modelpara.pth"
 # readModelFile = "/scratch/user/taopeng/REAL_TRUE_white/data/Noise_Pink_SR3p_0/Modelpara.pth"
@@ -228,7 +228,7 @@ readPatternFile = "/scratch/user/taopeng/REAL_TRUE_white/data/pattern/Ray_SR15p.
 # readModelFile = "/scratch/user/taopeng/REAL_TRUE_white/data/SMILE_PINK_SR3p_0/Modelpara.pth"
 # readModelFile = "/scratch/user/taopeng/REAL_TRUE_white/data/SMILE_Pink_SR5p_10/Modelpara.pth"
 # readModelFile = "/scratch/user/taopeng/REAL_TRUE_white/data/SMILE_Ray_SR5p_10/Modelpara.pth"
-readModelFile = "/scratch/user/taopeng/REAL_TRUE_white/data/SMILE_Ray_SR15p_0/Modelpara.pth"
+# readModelFile = "/scratch/user/taopeng/REAL_TRUE_white/data/SMILE_Ray_SR15p_0/Modelpara.pth"
 
 
 # save_name = './result/Noise_Pink_SR2p_0.npy'
